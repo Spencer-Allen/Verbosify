@@ -1,5 +1,4 @@
-<SCRIPT LANGUAGE="JavaScript">
-    function textProcess(form) {
+function textProcess(form) {
         var apiCalls = [];
         var textInput = form.inputbox.value;
         var inputArray = textInput.split(" ");
@@ -63,16 +62,3 @@
             
         }
     }
-</script>
-</head>
-<body>
-    <div id="Input Form">
-        <FORM NAME="input" ACTION="" METHOD="GET">
-            <INPUT TYPE="text" NAME="inputbox" rows="10" placeholder="input" VALUE="">
-            <P>
-                <INPUT TYPE="button" NAME="button" Value="VERBOSIFY" onClick="textProcess(this.form)">
-        </FORM>
-    </div>
-</body>
-
-</html>
