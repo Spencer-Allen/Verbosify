@@ -62,6 +62,6 @@ function textProcess(form) {
                 })[0];
                 var rand = responseArray[Math.floor(Math.random() * responseArray.length)];
             document.write(longest, " ");
-        }
-
+	}
+    }
 }
